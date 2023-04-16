@@ -7504,6 +7504,11 @@ pause@0.0.1:
   resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
   integrity sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg==
 
+paytmchecksum@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/paytmchecksum/-/paytmchecksum-1.5.0.tgz#15662a204a49603f13341d1f6f8f44d10f0df6f0"
+  integrity sha512-TQZn/YKEJ6P+OwJGmKXMKkkgUA0VxDISPcQTKre9ZWVLjp7EzVjB+ITGSChnAUpMn23QXCgAXO8JQDVncqcA5w==
+
 pg-connection-string@2.5.0, pg-connection-string@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.5.0.tgz#538cadd0f7e603fc09a12590f3b8a452c2c0cf34"
