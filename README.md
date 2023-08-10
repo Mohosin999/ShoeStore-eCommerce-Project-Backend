@@ -55,3 +55,20 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+## Cloudinary Setup
+
+### Set Up Cloudinary Account:
+
+- If you haven't already, sign up for a Cloudinary account.
+- Retrieve your Cloudinary API credentials, including your cloud_name, api_key, and api_secret.
+
+### Install and Configure the Cloudinary Plugin in Strapi:
+
+- In your Strapi project directory, install the Cloudinary plugin using npm or yarn.
+
+### Configure the plugin in config/plugins.js. Add your Cloudinary credentials:
+
+### Add Environment Variables:
+
+- In your project's .env file, add your Cloudinary credentials.
