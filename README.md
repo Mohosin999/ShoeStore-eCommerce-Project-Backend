@@ -67,7 +67,7 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 - In your Strapi project directory, install the Cloudinary plugin using npm or yarn.
 
-### Configure the plugin in config/plugins.js. Add your Cloudinary credentials:
+### Configure the plugin in config/plugins.js Add your Cloudinary credentials
 
 ### Add Environment Variables:
 
