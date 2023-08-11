@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product"
+    "displayName": "product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,46 +14,43 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true,
+      "minLength": 3
     },
-    "subtitle": {
-      "type": "string"
-    },
-    "price": {
-      "type": "decimal"
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "description": {
       "type": "richtext"
-    },
-    "size": {
-      "type": "json"
-    },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
     },
     "thumbnail": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
     },
     "original_price": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0,
+      "required": true
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "name"
-    },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "products"
+    "discounted_price": {
+      "type": "integer",
+      "required": false,
+      "default": 0
     }
   }
 }
