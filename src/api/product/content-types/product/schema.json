@@ -18,39 +18,48 @@
       "unique": true,
       "minLength": 3
     },
-    "slug": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
     "description": {
       "type": "richtext"
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "images": {
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "images": {
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "original_price": {
-      "type": "integer",
+      "type": "decimal",
       "default": 0,
       "required": true
     },
     "discounted_price": {
-      "type": "integer",
-      "required": false,
-      "default": 0
+      "type": "decimal",
+      "required": false
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "size": {
+      "type": "json",
+      "required": false
     }
   }
 }
