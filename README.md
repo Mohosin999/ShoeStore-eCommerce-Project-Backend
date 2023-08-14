@@ -3,15 +3,15 @@
 ## 📚 Table of Contents
 
 - [Description](#-description)
-- [Key Features](#-key-features)
+- [Features](#-features)
 - [Technology Stack](#-technology-stack)
 - [Deployment](#️-deployment)
 
 ## 📖 Description
 
-The ShoeStore eCommerce Platform Backend, powered by [Strapi](https://strapi.io/), serves as the robust foundation that drives the entire online shopping experience. This backend system is responsible for managing and organizing all the crucial data and operations like product management, user authentication and authorization, order processing and secure payment transactions that make ShoeStore a seamless and efficient platform for users, administrators, and developers alike.
+The ShoeStore eCommerce Platform Backend, powered by Strapi, serves as the robust foundation that drives the entire online shopping experience. This backend system is responsible for managing and organizing all the crucial data and operations like product management, user authentication and authorization, order processing and secure payment transactions that make ShoeStore a seamless and efficient platform for users, administrators, and developers alike.
 
-## 🔆 Key Features
+## 🔆 Features
 
 - **Product Management:** The backend enables administrators to effortlessly manage the product catalog. This includes adding new products, updating existing ones, and categorizing items for easy navigation.
 
@@ -21,9 +21,11 @@ The ShoeStore eCommerce Platform Backend, powered by [Strapi](https://strapi.io/
 
 - **API Integration:** It provides a comprehensive set of APIs that the frontend relies on to fetch product details, process orders, and handle user interactions.
 
-## 💻 Technology Stack
+## 💻 `Technology Stack`
 
-The ShoeStore backend is built using the Strapi framework, a powerful open-source headless CMS and API generator. Strapi offers a user-friendly admin interface that simplifies content management and API creation, making it an ideal choice for building a dynamic and feature-rich eCommerce platform.
+- **Headless CMS:** Strapi
+- **Database:** PostgreSQL
+- **Image Management:** Cloudinary
 
 ## Setup and Deployment
 
