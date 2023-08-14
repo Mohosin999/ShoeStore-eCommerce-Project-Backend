@@ -5,7 +5,7 @@
 - [Description](#-description)
 - [Key Features](#-key-features)
 - [Technology Stack](#-technology-stack)
-- [Deployment](#-deployment)
+- [Deployment](#deployment)
 
 ## 📖 Description
 
