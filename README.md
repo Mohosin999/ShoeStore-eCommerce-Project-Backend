@@ -9,15 +9,15 @@
 
 ## 📖 Description
 
-The ShoeStore eCommerce Platform Backend, powered by Strapi, serves as the robust foundation that drives the entire online shopping experience. This backend system is responsible for managing and organizing all the crucial data and operations that make ShoeStore a seamless and efficient platform for users, administrators, and developers alike.
+The ShoeStore eCommerce Platform Backend, powered by [Strapi](https://strapi.io/), serves as the robust foundation that drives the entire online shopping experience. This backend system is responsible for managing and organizing all the crucial data and operations like product management, user authentication and authorization, order processing and secure payment transactions that make ShoeStore a seamless and efficient platform for users, administrators, and developers alike.
 
 ## 🔆 Key Features
 
-- _Product Management:_ The backend enables administrators to effortlessly manage the product catalog. This includes adding new products, updating existing ones, and categorizing items for easy navigation.
+- **Product Management:** The backend enables administrators to effortlessly manage the product catalog. This includes adding new products, updating existing ones, and categorizing items for easy navigation.
 
 - **User Authentication and Authorization:** The backend handles user authentication, allowing customers to create accounts, log in securely, and access personalized features like order history and user profiles.
 
-- **Order Processing:** Order details are meticulously handled by the backend, ensuring smooth processing, accurate inventory management, and order tracking for customers.
+- **Order Processing:** The backend ensures seamless order processing, including secure payment transactions. It accurately manages inventory levels, tracks orders, and securely handles payment information to provide customers with a reliable shopping experience.
 
 - **API Integration:** It provides a comprehensive set of APIs that the frontend relies on to fetch product details, process orders, and handle user interactions.
 
