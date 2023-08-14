@@ -1,26 +1,26 @@
 # 👞 ShoeStore - An eCommerce Platform (Backend)
 
-## `description`
+## 📚 Table of Contents
+
+- [Description](#📖-description)
+- [Key Features](#🔆-key-features)
+- [Technology Stack](#💻-technology-stack)
+
+## 📖 Description
 
 The ShoeStore eCommerce Platform Backend, powered by Strapi, serves as the robust foundation that drives the entire online shopping experience. This backend system is responsible for managing and organizing all the crucial data and operations that make ShoeStore a seamless and efficient platform for users, administrators, and developers alike.
 
-## Key Features
+## 🔆 Key Features
 
-- **Product Management:** The backend enables administrators to effortlessly manage the product catalog. This includes adding new products, updating existing ones, and categorizing items for easy navigation.
+- _Product Management:_ The backend enables administrators to effortlessly manage the product catalog. This includes adding new products, updating existing ones, and categorizing items for easy navigation.
 
 - **User Authentication and Authorization:** The backend handles user authentication, allowing customers to create accounts, log in securely, and access personalized features like order history and user profiles.
 
 - **Order Processing:** Order details are meticulously handled by the backend, ensuring smooth processing, accurate inventory management, and order tracking for customers.
 
-- **Inventory Management:** Real-time updates on product availability are managed by the backend, preventing overselling and providing accurate stock information to customers.
-
-- **Data Security:** The backend implements advanced security measures to protect sensitive user information, ensuring compliance with privacy regulations and best practices.
-
 - **API Integration:** It provides a comprehensive set of APIs that the frontend relies on to fetch product details, process orders, and handle user interactions.
 
-- **Scalability:** Designed with scalability in mind, the backend can handle a growing number of products, users, and transactions without compromising performance.
-
-## Technology Stack
+## 💻 Technology Stack
 
 The ShoeStore backend is built using the Strapi framework, a powerful open-source headless CMS and API generator. Strapi offers a user-friendly admin interface that simplifies content management and API creation, making it an ideal choice for building a dynamic and feature-rich eCommerce platform.
 
