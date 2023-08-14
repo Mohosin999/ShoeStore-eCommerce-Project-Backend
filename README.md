@@ -56,9 +56,9 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
 
-## Cloudinary Setup
+## Cloudinary Setup 🇵🇹
 
-### Set Up Cloudinary Account:
+### `Set Up Cloudinary Account:`
 
 - If you haven't already, sign up for a Cloudinary account.
 - Retrieve your Cloudinary API credentials, including your cloud_name, api_key, and api_secret.
