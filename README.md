@@ -32,9 +32,24 @@ The ShoeStore eCommerce Platform Backend, powered by Strapi, serves as the robus
 Follow these steps to set up the ShoeStore backend on your local machine:
 
 1. **Clone the Repository:**
+   Copy the following code to clone this repo
 
 ```
-https://github.com/Mohosin999/ShoeStore-eCommerce-Project-Backend.git
+https://github.com/Mohosin999/ShoeStore-eCommerce-Project-Backend.git [Set here your own name if you want]
+```
+
+2. **Navigate to the Project Directory:**
+   Go to your project directory that your already created
+
+```
+cd your-repo
+```
+
+3. **Install Dependencies:**
+   Install all dependencies by typing this in your terminal
+
+```
+yarn
 ```
 
 # `==============================================`
