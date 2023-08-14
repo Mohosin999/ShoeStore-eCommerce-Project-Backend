@@ -31,25 +31,43 @@ The ShoeStore eCommerce Platform Backend, powered by Strapi, serves as the robus
 
 Follow these steps to set up the ShoeStore backend on your local machine:
 
-1. **Clone the Repository:**
-   Copy the following code to clone this repo
+1. `**Clone the Repository:**`
+   Copy the following code to clone this repository.
 
 ```
-https://github.com/Mohosin999/ShoeStore-eCommerce-Project-Backend.git [Set here your own name if you want]
+https://github.com/Mohosin999/ShoeStore-eCommerce-Project-Backend.git
 ```
 
-2. **Navigate to the Project Directory:**
-   Go to your project directory that your already created
+2. `**Navigate to the Project Directory:**`
+   Go to your project directory that your already created.
 
 ```
 cd your-repo
 ```
 
-3. **Install Dependencies:**
-   Install all dependencies by typing this in your terminal
+3. `**Install Dependencies:**`
+   Install all dependencies by typing this in your terminal.
 
 ```
 yarn
+```
+
+4. `**Configure Environment Variables:**`
+   Create a `.env` file in the root directory and set the following variables:
+
+```
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=<your_app_keys>
+API_TOKEN_SALT=<your_api_token_salt>
+ADMIN_JWT_SECRET=<your_admin_jwt_secret>
+TRANSFER_TOKEN_SALT=<your_transfer_token_salt>
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=.tmp/data.db
+JWT_SECRET=<your_jwt_secret>
+CLOUDINARY_NAME=<your_cloudinary_name>
+CLOUDINARY_KEY=<your_cloudinary_key>
+CLOUDINARY_SECRET=<your_cloudinary_secret>
 ```
 
 # `==============================================`
