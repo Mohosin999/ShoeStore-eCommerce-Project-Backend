@@ -21,29 +21,25 @@ The ShoeStore eCommerce Platform Backend, powered by Strapi, serves as the robus
 
 - **API Integration:** It provides a comprehensive set of APIs that the frontend relies on to fetch product details, process orders, and handle user interactions.
 
-## 💻 `Technology Stack`
+## 💻 Technology Stack
 
 - **Headless CMS:** Strapi
 - **Database:** PostgreSQL
 - **Image Management:** Cloudinary
 
-## Setup and Deployment
+## 🚀 Setup and Installation
 
-To set up the ShoeStore backend locally, follow the installation instructions provided in the repository's README.md file. Once configured, the backend can be deployed to various hosting platforms, ensuring your eCommerce platform is accessible to users around the world.
+Follow these steps to set up the ShoeStore backend on your local machine:
 
-## Contribution
+1. **Clone the Repository:**
 
-Contributions to the ShoeStore backend are welcomed! Whether it's fixing bugs, adding new features, or improving performance, you can contribute by submitting pull requests following the guidelines mentioned in the repository.
+```
+https://github.com/Mohosin999/ShoeStore-eCommerce-Project-Backend.git
+```
 
-## License
+# `==============================================`
 
-The ShoeStore backend is licensed under the MIT License. For more details, refer to the [LICENSE](backend/LICENSE) file.
-
-By providing a robust backend infrastructure, ShoeStore delivers a seamless shopping experience to customers while offering administrators the tools they need to manage and expand the platform efficiently.
-
-# ======================================================================================================
-
-# 🚀 Getting started with Strapi
+# Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
