@@ -133,7 +133,7 @@ module.exports = ({ env }) => ({
 
 ### `Add Environment Variables:`
 
-- In your project's .env file, add your Cloudinary credentials.
+- In your project's `.env` file, add your Cloudinary credentials.
 
 ```
 CLOUDINARY_NAME=<your_cloudinary_name>
