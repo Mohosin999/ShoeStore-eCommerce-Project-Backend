@@ -5,7 +5,7 @@
 - [Description](#-description)
 - [Features](#-features)
 - [Technology Stack](#-technology-stack)
-- [Setup and Installation](#setup-and-installation)
+- [Setup and Installation](#-setup-and-installation)
 
 ## 📖 Description
 
