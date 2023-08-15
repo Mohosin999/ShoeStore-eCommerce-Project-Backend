@@ -6,7 +6,6 @@
 - [Features](#-features)
 - [Technology Stack](#-technology-stack)
 - [Setup and Installation](#-setup-and-installation)
-- [Cloudinary Setup](#-cloudinary-setup)
 - [Cloudinary Setup](#️-cloudinary-setup)
 
 ## 📖 Description
@@ -107,7 +106,9 @@ Make sure you have the following prerequisites installed:
 yarn add @strapi/provider-upload-cloudinary
 ```
 
-### `Configure the plugin in **config/plugins.js** Add your Cloudinary credentials`
+### `Configure the plugin in "config/plugins.js" Add your Cloudinary credentials`
+
+If this `plugins.js` file doesn't exist, create it inside `config` directory.
 
 ```
 module.exports = ({ env }) => ({
