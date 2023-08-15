@@ -5,7 +5,7 @@
 - [Description](#-description)
 - [Features](#-features)
 - [Technology Stack](#-technology-stack)
-- [Setup and Installation](#️-setup-and-installation)
+- [Setup and Installation](#setup-and-installation)
 
 ## 📖 Description
 
@@ -78,11 +78,11 @@ CLOUDINARY_SECRET=<your_cloudinary_secret>
 yarn develop
 ```
 
-### 5. `Access the Application:`
+### 6. `Access the Application:`
 
 Open your browser and visit [http://localhost:1337](http://localhost:1337).
 
-### 5. `Prerequisites:`
+### 7. `Prerequisites:`
 
 Make sure you have the following prerequisites installed:
 
