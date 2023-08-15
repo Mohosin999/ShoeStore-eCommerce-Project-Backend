@@ -16,7 +16,6 @@
     "@strapi/provider-upload-cloudinary": "^4.9.0",
     "@strapi/strapi": "4.9.0",
     "better-sqlite3": "8.0.1",
-    "paytmchecksum": "^1.5.0",
     "pg": "^8.10.0"
   },
   "author": {
