@@ -7,6 +7,7 @@
 - [Technology Stack](#-technology-stack)
 - [Setup and Installation](#-setup-and-installation)
 - [Cloudinary Setup](#-cloudinary-setup)
+- [Cloudinary Setup](#️-cloudinary-setup)
 
 ## 📖 Description
 
