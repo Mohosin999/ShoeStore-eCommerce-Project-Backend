@@ -5,7 +5,7 @@
 - [Description](#-description)
 - [Features](#-features)
 - [Technology Stack](#-technology-stack)
-- [Deployment](#️-deployment)
+- [Setup and Installation](#️-setup-and-installation)
 
 ## 📖 Description
 
@@ -32,8 +32,6 @@ The ShoeStore eCommerce Platform Backend, powered by Strapi, serves as the robus
 Follow these steps to set up the ShoeStore backend on your local machine:
 
 ### 1. `Clone the Repository:`
-
-Copy the following code to clone this repository.
 
 ```
 https://github.com/Mohosin999/ShoeStore-eCommerce-Project-Backend.git
@@ -73,6 +71,24 @@ CLOUDINARY_NAME=<your_cloudinary_name>
 CLOUDINARY_KEY=<your_cloudinary_key>
 CLOUDINARY_SECRET=<your_cloudinary_secret>
 ```
+
+### 5. `Start the Server:`
+
+```
+yarn develop
+```
+
+### 5. `Access the Application:`
+
+Open your browser and visit [http://localhost:1337](http://localhost:1337).
+
+### 5. `Prerequisites:`
+
+Make sure you have the following prerequisites installed:
+
+- **Node.js:** Download and install Node.js from [nodejs.org](https://nodejs.org/en).
+- **PostgreSQL:** Set up a PostgreSQL database and obtain the connection string.
+- **Cloudinary Account:** Sign up for a Cloudinary account to manage images.
 
 # `==============================================`
 
