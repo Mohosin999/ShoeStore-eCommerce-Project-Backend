@@ -61,29 +61,39 @@ Create a `.env` file in the root directory and set the following variables:
 ```
 HOST=0.0.0.0
 PORT=1337
-APP_KEYS=<your_app_keys>
-API_TOKEN_SALT=<your_api_token_salt>
-ADMIN_JWT_SECRET=<your_admin_jwt_secret>
-TRANSFER_TOKEN_SALT=<your_transfer_token_salt>
+APP_KEYS=<your app keys>
+API_TOKEN_SALT=<your api token salt>
+ADMIN_JWT_SECRET=<your admin jwt secret>
+TRANSFER_TOKEN_SALT=<your transfer token salt>
 DATABASE_CLIENT=postgres
 DATABASE_FILENAME=.tmp/data.db
-JWT_SECRET=<your_jwt_secret>
-CLOUDINARY_NAME=<your_cloudinary_name>
-CLOUDINARY_KEY=<your_cloudinary_key>
-CLOUDINARY_SECRET=<your_cloudinary_secret>
+JWT_SECRET=<your jwt secret>
+CLOUDINARY_NAME=<your cloudinary name>
+CLOUDINARY_KEY=<your cloudinary key>
+CLOUDINARY_SECRET=<your cloudinary secret>
 ```
 
-### 5. `Start the Server:`
+### 5. `Configure Database Name and Password ( that you created inside pgAdmin after installing postgreSQL ) :`
+
+Go to your strapi code's `config/database.js` file and add this:
+
+```
+database: env("DATABASE_NAME", "<your created database name>"),
+user: env("DATABASE_USERNAME", "postgres"),
+password: env("DATABASE_PASSWORD", "<your created password>"),
+```
+
+### 6. `Start the Server:`
 
 ```
 yarn develop
 ```
 
-### 6. `Access the Application:`
+### 7. `Access the Application:`
 
 Open your browser and visit [http://localhost:1337](http://localhost:1337).
 
-### 7. `Prerequisites:`
+### 8. `Prerequisites:`
 
 Make sure you have the following prerequisites installed:
 
@@ -136,7 +146,7 @@ module.exports = ({ env }) => ({
 - In your project's `.env` file, add your Cloudinary credentials.
 
 ```
-CLOUDINARY_NAME=<your_cloudinary_name>
-CLOUDINARY_KEY=<your_cloudinary_key>
-CLOUDINARY_SECRET=<your_cloudinary_secret>
+CLOUDINARY_NAME=<your cloudinary name>
+CLOUDINARY_KEY=<your cloudinary key>
+CLOUDINARY_SECRET=<your cloudinary secret>
 ```
