@@ -56,10 +56,6 @@
       "type": "uid",
       "targetField": "name",
       "required": true
-    },
-    "size": {
-      "type": "json",
-      "required": false
     }
   }
 }
