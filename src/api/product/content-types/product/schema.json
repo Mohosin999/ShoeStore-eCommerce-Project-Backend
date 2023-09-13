@@ -56,6 +56,10 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "hot_discount": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
