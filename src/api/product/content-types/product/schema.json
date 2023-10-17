@@ -60,6 +60,9 @@
     "hot_discount": {
       "type": "boolean",
       "default": false
+    },
+    "available_product": {
+      "type": "integer"
     }
   }
 }
