@@ -4,18 +4,41 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "order"
+    "displayName": "order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "stripeid": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "product_name": {
       "type": "string"
     },
-    "products": {
-      "type": "json"
+    "product_quantity": {
+      "type": "integer"
+    },
+    "product_price": {
+      "type": "decimal"
+    },
+    "grand_total": {
+      "type": "decimal"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "done",
+        "cancled"
+      ]
     }
   }
 }

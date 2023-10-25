@@ -46,12 +46,6 @@
       "type": "decimal",
       "required": false
     },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "products"
-    },
     "slug": {
       "type": "uid",
       "targetField": "name",
