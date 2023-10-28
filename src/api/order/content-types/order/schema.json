@@ -12,33 +12,35 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "username": {
-      "type": "string",
-      "required": true
+    "full_name": {
+      "type": "string"
     },
     "email": {
-      "type": "email",
-      "required": true
+      "type": "email"
     },
-    "product_name": {
+    "upazila": {
+      "type": "string"
+    },
+    "zila": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "integer"
+    },
+    "country": {
       "type": "string"
     },
     "product_quantity": {
       "type": "integer"
     },
-    "product_price": {
-      "type": "decimal"
-    },
     "grand_total": {
       "type": "decimal"
     },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "pending",
-        "done",
-        "cancled"
-      ]
+    "username": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
     }
   }
 }
