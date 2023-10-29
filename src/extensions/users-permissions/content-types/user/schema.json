@@ -66,12 +66,18 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "Image": {
-      "allowedTypes": [
-        "images"
+    "about": {
+      "type": "richtext"
+    },
+    "user_status": {
+      "type": "enumeration",
+      "enum": [
+        "New",
+        "Regular",
+        "Silver",
+        "Gold"
       ],
-      "type": "media",
-      "multiple": false
+      "default": "New"
     }
   }
 }
