@@ -41,6 +41,9 @@
     },
     "division": {
       "type": "string"
+    },
+    "products": {
+      "type": "json"
     }
   }
 }
