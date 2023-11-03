@@ -44,6 +44,16 @@
     },
     "products": {
       "type": "json"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "Done",
+        "Cancelled"
+      ],
+      "default": "Pending",
+      "required": false
     }
   }
 }
