@@ -14,13 +14,17 @@ The ShoeStore eCommerce Platform Backend, powered by Strapi, serves as the robus
 
 ## 🔆 Features
 
-- **Product Management:** The backend enables administrators to effortlessly manage the product catalog. This includes adding new products, updating existing ones, and categorizing items for easy navigation.
+**`Product Management:`**
+- The backend enables administrators to effortlessly manage the product catalog. This includes adding new products, updating existing ones, and categorizing items for easy navigation.
 
-- **User Authentication and Authorization:** The backend handles user authentication, allowing customers to create accounts, log in securely, and access personalized features like order history and user profiles.
+**`User Authentication and Authorization:`**
+- The backend handles user authentication, allowing customers to create accounts, log in securely, and access personalized features like order history and user profiles.
 
-- **Order Processing:** The backend ensures seamless order processing, including secure payment transactions. It accurately manages inventory levels, tracks orders, and securely handles payment information to provide customers with a reliable shopping experience.
+**`Order Processing:`**
+- The backend ensures seamless order processing, including secure payment transactions. It accurately manages inventory levels, tracks orders, and securely handles payment information to provide customers with a reliable shopping experience.
 
-- **API Integration:** It provides a comprehensive set of APIs that the frontend relies on to fetch product details, process orders, and handle user interactions.
+**`API Integration:`**
+- It provides a comprehensive set of APIs that the frontend relies on to fetch product details, process orders, and handle user interactions.
 
 ## 💻 Technology Stack
 
