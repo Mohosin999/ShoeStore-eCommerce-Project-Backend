@@ -151,7 +151,7 @@ module.exports = ({ env }) => ({
 });
 ```
 
-### `Add Environment Variables:`
+### `Add This Indside Environment Variables:`
 
 - In your project's `.env` file, add your Cloudinary credentials.
 
